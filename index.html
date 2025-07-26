@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>RSCELL</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#home" class="logo">RSCELL</a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div class="home">
+                <div class="container-home">
+                    <h2>SEJA BEM-VINDO À RSCELL</h2>
+                    <p>
+                        Fazemos troca de tela para todos os modelos de celular. Agende já o seu atendimento!
+                        Estamos abertos de segunda a sábado. <br> ORÇAMENTO GRÁTIS!
+                    </p>
+                    <button id="whatsappBtn" class="botao">SEU ORÇAMENTO AGORA</button>
+                </div>
+                <img class="imagem" src="assets/celular.png" alt="Imagem ilustrativa de assistência técnica">
+            </div>
+        </section>
+
+        <section id="about">  
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>
+                    A <span>RS CELL</span> é uma loja especializada em conserto de celulares, oferecendo assistência técnica confiável e acessível para os modelos mais populares do mercado, como: <br><br>
+                    <span>iPhone, Samsung, Xiaomi, Motorola e LG.</span><br><br>
+                    Mesmo sendo uma loja de pequeno porte, nosso compromisso é entregar um atendimento próximo, transparente e de qualidade. Os reparos são realizados por técnicos experientes, com garantia em cada serviço prestado — porque seu celular merece cuidado de verdade. Além do conserto, você encontra também acessórios originais e compatíveis, como capas, películas, carregadores e fones, tudo para deixar seu aparelho protegido e completo. Seja um problema simples ou mais complexo, pode contar com a RS CELL. Aqui, seu celular está em boas mãos. 🔧📲
+                </p> 
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="services">
+                <h2>Nossos Serviços</h2>
+                <div class="container-services">
+                    <div class="service-item">
+                        <img src="assets/tela.png" alt="Troca de tela">
+                        <p>Troca de tela</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/sistemas.png" alt="Restauração de software">
+                        <p>Sistemas</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/bateria.png" alt="Troca de bateria">
+                        <p>Troca de bateria</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/desbloqueio.png" alt="Desbloqueio de celular">
+                        <p>Desbloqueio de celular</p>
+                    </div>
+                    <div class="service-item">
+                        <img src="assets/acessorios-celular.png" alt="Acessórios para celular">
+                        <p>Acessórios</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews">   
+            <div class="slider-container">
+                <h2>Nossas Avaliações</h2>
+                <button class="prev" onclick="prevSlide()">◀</button>
+                <div id="content"></div>
+                <button class="next" onclick="nextSlide()">▶</button>
+            </div>
+        </section>
+
+        <section id="location">
+            <div class="store">
+                <h2>Nossa Localização</h2>
+                <p>
+                    Rua Silveira Filho, 1314 – Bonsucesso, Fortaleza-CE
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.153015446349!2d-38.58216012593356!3d-3.776866443418717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74c19e290b783%3A0xfc5a5fe56fe134a8!2sR.%20Silveira%20Filho%2C%201314%20-%20Bonsucesso%2C%20Fortaleza%20-%20CE%2C%2060520-505!5e0!3m2!1spt-BR!2sbr!4v1753371368217!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+    <footer class="footer">
+        <section id="contact">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>RS CELL</h2>
+                    <p>
+                        Criamos experiências digitais incríveis com foco em acessibilidade e qualidade para todos os usuários. Somos uma assistência técnica independente e não autorizada por fabricantes.
+                    </p>
+                </div>
+
+                <div class="footer-section links">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section contact">
+                    <h3>Contato</h3>
+                    <div class="social-icons">
+                        <img id="whatsappFooterIcon" src="assets/icon-whatsapp.png" alt="Whatsapp">
+                        <a href="https://www.instagram.com/rs_cell_97?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" aria-label="Instagram">
+                            <img src="assets/icon-instagram.png" alt="Instagram">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                © 2025 RSCELL | Desenvolvido com dedicação.
+            </div>
+        </section> 
+    </footer>
+  
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
