@@ -44,10 +44,10 @@ Projetorscell/
 ```bash
 
 # 1. Clone o repositório:
-git clone https://github.com/seuusuario/Projetorscell.git
+git clone https://github.com/itsraiza/RSCELL.git
 
 # 2. Acesse a pasta do projeto:
-cd Projetorscell
+cd RSCELL
 
 # 3. Abra o arquivo index.html no navegador para visualizar o site.
 
